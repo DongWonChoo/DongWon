@@ -1,0 +1,2 @@
+SELECT 
+FROM bigdata.newtable;
