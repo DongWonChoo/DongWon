@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>myShop</title>
+		<link rel ="stylesheet" type ="text/css" href="css/select.css"> 
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/select.js"></script>
+	</head>
+	<body>
+		<h2> 제품 검색 </h2>
+		<form action="select.jsp">
+			<table>
+				<tr>
+					<th>제품ID</th>
+					<td><input type="text" name="pro_id" id="pro_id" onkeyup="check()"><br></td>
+					
+				</tr>
+				<tr>
+					<th>제품명</th>
+					<td><input type="text" name="pro_name"><br></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2"><button type="submit" id="button_check">결과 전송</button></td>
+				</tr>
+			</table>
+		</form>
+		<h2 id="check">제품명 입력하세요</h2>
+	</body>
+</html>
