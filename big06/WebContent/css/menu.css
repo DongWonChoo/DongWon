@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* side메뉴 설정 */
+#side {
+   width: 200px;
+   height: 140px;
+   top: 80px;
+   right: 5px;
+   position: fixed;
+   background: black;
+   font: 궁서 10px bold;
+   color: yellow;
+   border-top: 5px solid aqua;
+   border-bottom: 10px double white;
+   border-radius: 100px 100px 100px 100px;
+   box-shadow: 10px 10px yellow;
+}
+
+#menu ul{
+	display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 네비바 css */
+#menu li {
+	list-style: none;
+	float: left;
+	padding: 15px;
+	background: white;
+	color: #ffffff;
+	border: 2pt groove gray;
+}
+
+/* 첫번째 네비바 모서리 둥글게 만들기 작업 */
+#menu li:first-child {
+	border-radius: 10px 0 0 10px;
+}
+
+/* 마지막 네비바 모서리 둥글게 만들기 작업 */
+#menu li:last-child {
+	border-radius: 0 10px 10px 0;
+} 
+
+
+h1{
+	text-align: center;
+}

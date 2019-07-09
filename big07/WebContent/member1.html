@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Insert title here</title>
+	</head>
+	<body>
+		<!-- a, action은 클라이언트의 요청 : 주소부분에 남는다. -->
+		<!-- <a href="member.jsp">단순한 링크 연결</a> -->
+		<!-- 넘기고 싶은 데이터는 form을 벗어나면 작동을 안한다 -->
+		<h1>회원가입 화면입니다.</h1>
+		<hr color="gold">
+		<form action="member1-2.jsp">
+			ID: <input type="text" name="id" id="id"> <br>
+			PW: <input type="text" name="pw" id="pw"> <br>
+			NAME: <input type="text" name="name" id="name"> <br>
+			TEL: <input type="text" name="tel" id="tel"> <br>
+			<input type="submit" value="서버로 전송">
+		</form>
+	</body>
+</html>

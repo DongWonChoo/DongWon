@@ -1,0 +1,17 @@
+@charset "UTF-8";
+td {
+   width: 230px;
+   height:200px;
+   text-align: center;
+}
+
+/* youtube 크기 조절 */
+iframe {
+	 width: 220px;
+ 	 height:190px;
+}
+
+video {
+	 width: 220px;
+ 	 height:190px;
+}

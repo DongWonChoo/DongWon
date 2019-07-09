@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Insert title here</title>
+			<style type="text/css">
+				#birth {
+					width: 50px;
+				}
+				
+				#sex{
+					width: 175px;
+				}
+				
+				#tel_check{
+					width: 70px;
+				}
+				
+				#tel_submit{
+					width: 92px;
+					background: green;
+					color: white;
+				}
+				
+				#member_submit{
+					width: 175px;
+					background: green;
+					color: white;
+				}
+				
+				input {
+					widows: 150px;
+				}
+			</style>
+	</head>
+	<body>
+		<!-- a, action은 클라이언트의 요청 : 주소부분에 남는다. -->
+		<!-- <a href="member.jsp">단순한 링크 연결</a> -->
+		<!-- 넘기고 싶은 데이터는 form을 벗어나면 작동을 안한다 -->
+		<h1>회원가입 화면입니다.</h1>
+		<hr color="gold">
+		<form action="member2.jsp">
+			아이디<br>
+			<input type="text" name="id" id="id"> <br>
+			비밀번호<br>
+			<input type="text" name="pw" id="pw"> <br>
+			비밀번호 재확인<br>
+			<input type="text" name="pw_check" id="pw_check"> <br>
+			이름<br>
+			<input type="text" name="name" id="name"> <br>
+			생년월일<br>
+			<input type="text" name="birth_year" id="birth">
+			<select name="birth_month" id="birth">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+			<input type="text" name="birth_day" id="birth"> <br>
+			성별<br>
+			<select name="sex" id="sex">
+				<option value="남자">남자</option>
+				<option value="여자">여자</option>
+			</select><br>
+			본인 확인 이메일<br>
+			<input type="text" name="email" id="email" width="150"> <br>
+			휴대전화<br>
+			<input type="text" name="tel" id="tel"> <br>
+			<input type="text" name="tel_check" id="tel_check">
+			<input type="submit" value="인증번호 받기" id="tel_submit"><br><br>
+			<input type="submit" value="가입하기" id="member_submit">
+		</form>
+	</body>
+</html>

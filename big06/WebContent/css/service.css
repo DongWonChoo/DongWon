@@ -1,0 +1,10 @@
+@charset "UTF-8";
+td {
+   width: 150px;
+   height:100px;
+   text-align: center;
+}
+/* 마우스 on할 때 color gray변경 */
+input[type="text"]:hover {
+	background: gray;
+}
