@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Insert title here</title>
+			<script type="text/javascript">
+				function check() {
+					//alert("내가 호출됨.")
+					//var data1 = document.getElementById("id"); //id라는 input값의 노드
+					var data1 = document.querySelector("#id");
+					var data2 = document.querySelector("#pw");
+					var data3 = document.querySelector("#name");
+					var data4 = document.querySelector("#tel");
+					var data5 = data1.value; //입력값 추출
+					var data6 = data2.value; //입력값 추출
+					var data7 = data3.value; //입력값 추출
+					var data8 = data4.value; //입력값 추출
+					if(data5.length >= 5) {
+						location.href ="js.jsp?id="+data5+"?pw="+data6+"?name="+data7+"?tel="+data8;
+					} else {
+						location.href ="js_member.html"
+					}
+				}
+			</script>
+	</head>
+	<body>
+		<h1>회원가입</h1>
+		아이디: <input type="text" name="id" id="id"><br>
+		패스워드: <input type="text" name="pwassword" id="pw"><br>
+		이름 : <input type="text" name="name" id="name"><br>
+		전화번호: <input type="text" name="tel" id="tel"><br>
+		<button type="button" onclick="check()">회원가입</button>
+	</body>
+</html>

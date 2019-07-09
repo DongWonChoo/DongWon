@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+#total {
+   color: black;
+   background-image: url(sky.png);
+   width: 800px;
+   height:  1500px;
+   font-size: 20px;
+}
+
+#top {
+   width: 800px;
+   padding-left: 120px;
+   height: 40px;
+   background: red;
+}
+
+#top li { /* top밑에 있는 li선택 */
+   list-style: none; 
+   float: left;
+   width: 100px;
+   height: 20px;
+   padding-left : 30px;
+   padding-top : 7px;
+}   
+
+#top li:nth-child(2n+1) {
+
+.background: #03300b;   
+   box-shadow: 10px grey;
+   height: 33px;
+}
+
+#top li:first-child {
+   border-radius: 20px 0 0 20px;
+}
+
+#top li:last-child {
+   border-radius: 0 20px 20px 0;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+#content {
+   padding-top: 20px;
+   background: white;
+   width: 800px;
+   height: 300px;
+}
+
+tr{
+   width: 300px;   
+}
+
+.t1 {
+   width: 100px;
+   text-align: center;
+}
+
+.t1:hover {
+   background: lime;
+}
+
+.t2 {
+   width: 200px;
+}
+
+input[type="text"] {
+   background: red;
+   font-size: 30px;
+   color: lime;
+   font-weight: bold;
+}
+
+t3 {
+   text-align: center;
+}
+
+input[type="submit"] {
+   color: white;
+   background: green;
+   font-family: 궁서;
+   font-size: 30px;
+}
+
+#top2 {
+   width: 200px;
+   height: 140px;
+   top: 80px;
+   right: 5px;
+   position: fixed;
+   background: black;
+   font: 궁서 10px bold;
+   color: yellow;
+   border-top: 5px solid aqua;
+   border-bottom: 10px double white;
+   border-radius: 100px 100px 100px 100px;
+   box-shadow: 10px 10px yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+			<title>Insert title here</title>
+			<link 	rel ="stylesheet" type ="text/css" href="style2.css"> 
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script type="text/javascript">
+					$(function(){// body부분을 읽고 나서, 처리해달라는 함수
+						h1Text = $("h1").text()  
+						h4Text = $("h4").text()
+		 				console.log(h1Text)
+		 				console.log(h4Text)
+		 				alert($("p").text())
+					});
+			</script>
+	</head>
+	<body>
+
+		<h1>오늘은 수요일</h1>
+		<h2>나는 자바 프로그래머</h2>
+		<p>나는 자바 프로그래머 2개월차입니다.</p>
+		<hr width="500" size="10" color="red">
+		<h4>오늘은 클라이언트 3총사를 수업하는 날입니다.</h4>	
+	</body>
+</html>

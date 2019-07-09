@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Insert title here</title>
+			<script type="text/javascript">
+				var num1 = parseInt(prompt("1번 숫자 입력 : "));
+				var num2 = parseInt(prompt("2번 숫자 입력 : "));
+				var result = 0;
+				function p() {
+					result = num1 + num2;
+					alert(result);
+					reset();
+				}
+				function m() {
+					result = num1-num2;
+					alert(result);
+					reset();
+				}
+				function g() {
+					result = num1*num2;
+					alert(result);
+					reset();
+				}
+				function n() {
+					result = num1/num2;
+					alert(result);
+					reset();
+				}
+				function reset() {
+					location.href ="test03.html"
+				}
+				
+			
+			</script>
+	</head>
+	<body>
+		<button type="button" onclick="p()">[ + ] </button>
+		<button type="button" onclick="m()">[ - ] </button>
+		<button type="button" onclick="g()">[ * ] </button>
+		<button type="button" onclick="n()">[ / ] </button>
+	</body>
+</html>

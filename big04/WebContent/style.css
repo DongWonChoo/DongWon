@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body{
+	color: blue;
+	background-image: url(sky.png);
+	width: 800px;
+	height: 1500px;
+	font-size: 20px;
+}
+
+#top{
+	width: 800px;
+	padding-left: 120px;
+	height: 30px;
+	background: lime;
+}
+
+#top li{
+	list-style: none;
+	float: left;
+	width: 100px;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+#top li:nth-child(2n+1) {
+	background: red;
+	box-shadow: 10px 10px gray;
+}
+
+#top li:nth-child(2n) {
+	background: orange;
+	box-shadow: 10px 10px gray;
+}
+
+#top li:first-child {
+	border-radius: 20px 0 0 20px;
+}
+
+#top li:last-child {
+	border-radius: 0 20px 20px 0;
+		
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#content{
+	background:  yellow;
+	width: 800px;
+	height: 300px;
+}
+
+tr{
+	width: 300px;
+}
+
+.t1 {
+	width: 100px;
+}
+.t1:hover {
+	background: lime;
+	font-weight: bold;
+}
+.t2 {
+	width: 200px;
+}
+
+.t3 {
+	text-align: center;
+}
+
+input[type="button"] {
+	color: white;
+	background: green;
+	font-family: 궁서;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+input[type="button"]:hover {
+	color: white;
+	background: gold;
+	font-family: 궁서;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+input[type="text"] {
+	background: gold;
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	font-family: 궁서;
+}
+
+input[type="text"]:hover {
+	background: white;
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	font-family: 궁서;
+}
+
+#top2 {
+	tpo: 350px;
+	right: 5px;
+	position: fixed;
+	width: 200px;
+	height: 130px;
+	background: black;
+	font: 궁서 10px bold;
+	color: yellow;
+	border-top: 5px solid aqua;
+	border-bottom: 10px double white;
+	border-radius: 100px 0 100px 0;
+	box-shadow: 10px 10px gray;
+}

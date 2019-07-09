@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Insert title here</title>
+			<script type="text/javascript">
+				function check() {
+					var nm = document.querySelector("#name");
+					var tl = document.querySelector("#tel");
+					var name = nm.value; //입력값 추출
+					var tel = tl.value; //입력값 추출
+					if(name.length == 0) {
+						location.href ="test01.html"
+					} else {
+						location.href ="test01_js.jsp?name="+name+"?tel="+tel;
+					}
+				}
+			</script>
+	</head>
+	<body>
+		<h1>회원가입</h1>
+		이름: <input type="text" name="name" id="name"><br>
+		번호: <input type="text" name="tel" id="tel"><br>
+		<button type="button" onclick="check()">회원가입</button>
+	</body>
+</html>

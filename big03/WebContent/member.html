@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>member</title>
+	</head>
+	<body>
+		<img alt="" src="img1.PNG">
+		<form action="server.jsp">
+			ID: <input type="text" name="id" placeholder="5글자 이상"><br>
+			PASSWORD : <input type="text" name="pw"><br>
+			NAME : <input type="text" name="name"><br>
+			TEL : <input type="text" name="tel"><br>
+			좋아하는 음식 :	<select name="food">
+							<option values="a">감자</option>
+							<option values="b">고구마</option>
+							<option values="c" selected>피자</option>
+							<option values="d">옥수수</option>
+					   	</select><br>
+			성별 : <input type="radio" name="gender"value="man"> 남자
+				 <input type="radio" name="gender"value="woman"> 여자<br>
+			취미 : <input type="checkbox" name="hobby" value="run">달리기
+				 <input type="checkbox" name="hobby" value="book">책읽기
+				 <input type="checkbox" name="hobby" value="coding">코딩하기<br>
+			하고 싶은 말 : <textarea rows="10" cols="20" placeholder="여따 쓰"></textarea>
+			<input type="submit" valuse="서버로 전송">
+		</form>
+	</body>
+</html>
